@@ -1,0 +1,2 @@
+因作业要求版本为2.7，Guess.py中引用的pyglet第三方库需要用pyglet-1.4.10-py2.py3-none-any.whl
+若为python3，则可直接pip install pyglet

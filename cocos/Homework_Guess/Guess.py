@@ -21,14 +21,10 @@ class loading(Layer):
         background.position = self.s_width//2,self.s_height//2
         self.add(background,-2)
 
-
-
         title_lable = cocos.text.Label('Guess Game',font_name='Times New Roman',font_size=32,anchor_x='center',anchor_y='center',color=(7,7,14,200))
         title_lable.position = self.s_width//2,self.s_height//2
         self.add(title_lable,1)
         
-
-    
     def on_mouse_motion(self,x,y,dx,dy):
         print("1====",x,y,dx,dy)
 
@@ -37,11 +33,8 @@ class loading(Layer):
 
     def on_mouse_press(self,x,y,button,modifiers):
         print(x,y,button,modifiers)
-        scene = Guess_menu.Acreate_scene()
+        scene = Guess_menu.Acreate_scene()              #场景切换至菜单界面
         director.replace(scene)
-        #director.push(scene)
-        #jzt=RotoZoomTransition(scene,1.5)
-        #director.push(jzt)
 
 
     def on_key_press(self,key,modifiers):
@@ -55,11 +48,6 @@ class loading(Layer):
             print("你释放了空格键")
         if key == pyglet.window.key.P:
             print("P")
-
-
-
-
-
 
 if __name__ == "__main__":
     director.init(width=800,height=450,caption="Guess")

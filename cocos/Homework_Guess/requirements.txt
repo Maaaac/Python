@@ -14,7 +14,7 @@ lazy-object-proxy==1.5.0
 mccabe==0.6.1
 Naked==0.1.31
 numpy==1.16.6
-Pillow==6.2.2
+Pillow==9.3.0
 pyglet @ file:///C:/Python27/Lib/site-packages/pyglet-1.4.10-py2.py3-none-any.whl
 pylint==1.9.5
 PyYAML==5.3.1

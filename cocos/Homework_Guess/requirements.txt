@@ -6,7 +6,7 @@ cocos2d==0.6.8
 colorama==0.4.3
 configparser==4.0.2
 enum34==1.1.10
-future==0.18.2
+future==0.18.3
 futures==3.3.0
 idna==2.10
 isort==4.3.21

@@ -22,6 +22,6 @@ requests==2.24.0
 shellescape==3.8.1
 singledispatch==3.4.0.3
 six==1.15.0
-urllib3==1.25.9
+urllib3==1.26.5
 wrapt==1.12.1
 wxPython==4.1.0
